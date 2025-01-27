@@ -1,7 +1,7 @@
 
 
 $(function () {
-  $('.gallery__list').slick({
+  $('.how-list').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -12,8 +12,8 @@ $(function () {
     dots: false,
     centerMode: true,
     cssEase: 'linear',
-    prevArrow: '.gallery-list-left',
-    nextArrow: '.gallery-list-right',
+    prevArrow: '.how-list-left',
+    nextArrow: '.how-list-right',
   });
 });
 
